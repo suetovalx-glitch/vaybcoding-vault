@@ -45,6 +45,13 @@
 - [[wiki/concepts/vault-raw-wiki-pipeline|Пайплайн raw → wiki]]
 - [[wiki/concepts/dual-agent-stack|Dual-Agent Stack: Hermes + pi на двух VPS]]
 - [[wiki/concepts/docker-test-stack|Test Infrastructure: 3 VPS как Docker-машина]]
+- [[wiki/concepts/architecture-block-diagram|Архитектура: Полная блочная схема (4 diagram)]]
+
+### Architecture Blocks (блок-схемы)
+- [[wiki/architecture-blocks/full-architecture|Full Architecture]] — полная архитектура: локалка + прод + test + сети + LLM
+- [[wiki/architecture-blocks/delegate-task-flow|Delegate Task Flow]] — sequence diagram протокола delegate_task + JSON-RPC
+- [[wiki/architecture-blocks/test-infra-deploy|Test Infra Deploy]] — flow деплоя test-infrastructure на VPS-test-3
+- [[wiki/architecture-blocks/git-sync|Git Sync]] — схема git-синхронизации LOC ↔ GitHub ↔ VPS
 
 ### Entities (сущности)
 
