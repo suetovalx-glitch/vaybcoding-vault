@@ -1,0 +1,52 @@
+# Obsidian
+.obsidian/workspace*
+.obsidian/workspace-mobile*
+*.swp
+*.swo
+.DS_Store
+
+# Secrets & env
+.env
+.env.*
+secrets.env
+*.key
+*.pem
+*.ppk
+*.pk8
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Pi agent local config (contains API keys)
+.pi/agent/models.json
+.pi/agent/auth.json
+.pi/agent/mcp-cache.json
+.pi/agent/mcp-npx-cache.json
+.pi/agent/models-store.json
+
+# Test configs with secrets
+VPS/test-1.md
+VPS/test-2.md
+VPS/pi-agent.md
+
+# Generated
+*.log
+*.tmp
+*.bak
